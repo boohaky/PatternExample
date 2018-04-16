@@ -1,6 +1,10 @@
 package com.company.behaviour.state;
 
-public class WarState implements ICountryState {
+public class WarState extends CountryState {
+
+    WarState(Country country) {
+        super(country);
+    }
 
     @Override
     public void buildTavern() {
@@ -10,5 +14,6 @@ public class WarState implements ICountryState {
     @Override
     public void buildBarrack() {
         System.out.println("Yeah, build one");
+        country.setCountryState(new WarState(country));
     }
 }

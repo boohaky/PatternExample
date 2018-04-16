@@ -1,6 +1,10 @@
 package com.company.behaviour.state;
 
-public class PeaceState implements ICountryState {
+public class PeaceState extends CountryState {
+
+    PeaceState(Country country) {
+        super(country);
+    }
 
     @Override
     public void buildTavern() {
