@@ -8,6 +8,5 @@ public class StateTest {
         country.day();
         country.setCountryState(new WarState());
         country.day();
-
     }
 }
