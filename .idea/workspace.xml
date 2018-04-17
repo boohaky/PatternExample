@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18b77b06-7789-499d-b8a1-2820428533cc" name="Default" comment="add template example">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/templatemethod/Backup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/templatemethod/CloudBackup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/templatemethod/FileBackup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/templatemethod/TemplateMethodTest.java" />
+    <list default="true" id="18b77b06-7789-499d-b8a1-2820428533cc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/visitor/ComicBookVisitor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/visitor/DCBook.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/visitor/IComicBook.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/visitor/MarvelBook.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/behaviour/visitor/VisitorTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,42 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HSGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/strategy/HSGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/strategy/StrategyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Country.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/state/Country.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CountryState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/state/CountryState.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateMethodTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TemplateMethodTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/templatemethod/TemplateMethodTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -119,33 +84,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WarState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/state/WarState.java">
+      <file leaf-file-name="IComicBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/IComicBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="36">
+              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarvelBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/MarvelBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DCBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/DCBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComicBookVisitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/ComicBookVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeaceState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/state/PeaceState.java">
+      <file leaf-file-name="VisitorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/VisitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,11 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/structural/bridge/Superman.java" />
-        <option value="$PROJECT_DIR$/src/com/company/structural/bridge/Batman.java" />
-        <option value="$PROJECT_DIR$/src/com/company/structural/bridge/heroes/Superman.java" />
-        <option value="$PROJECT_DIR$/src/com/company/structural/bridge/godbuster/GodBuster.java" />
-        <option value="$PROJECT_DIR$/src/com/company/structural/bridge/godbuster/GodDestroyer.java" />
         <option value="$PROJECT_DIR$/src/com/company/structural/bridge/godbuster/HulkBuster.java" />
         <option value="$PROJECT_DIR$/src/com/company/structural/bridge/godDestoyers/HulkBuster.java" />
         <option value="$PROJECT_DIR$/src/com/company/structural/bridge/godDestoyers/BatMehSuits.java" />
@@ -224,6 +209,11 @@
         <option value="$PROJECT_DIR$/src/com/company/behaviour/templatemethod/CloudBackup.java" />
         <option value="$PROJECT_DIR$/src/com/company/behaviour/templatemethod/FileBackup.java" />
         <option value="$PROJECT_DIR$/src/com/company/behaviour/templatemethod/TemplateMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/behaviour/visitor/ComicBookVivistor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/behaviour/visitor/DCBook.java" />
+        <option value="$PROJECT_DIR$/src/com/company/behaviour/visitor/MarvelBook.java" />
+        <option value="$PROJECT_DIR$/src/com/company/behaviour/visitor/ComicBookVisitor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/behaviour/visitor/VisitorTest.java" />
       </list>
     </option>
   </component>
@@ -283,7 +273,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="behaviour" type="462c0819:PsiDirectoryNode" />
-              <item name="templatemethod" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -447,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523867567990</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add template example">
+      <created>1523949349078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523949349078</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -506,41 +503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/structural/adapter/Ghost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/structural/adapter/IGhostScares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/structural/adapter/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -802,8 +764,8 @@
         <state relative-caret-position="144">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -821,8 +783,8 @@
         <state relative-caret-position="162">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="false" />
+            <element signature="e#209#210#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -832,10 +794,10 @@
         <state relative-caret-position="216">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="false" />
+            <element signature="e#144#145#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -845,12 +807,12 @@
         <state relative-caret-position="72">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="false" />
+            <element signature="e#148#149#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#296#297#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -907,6 +869,53 @@
         <state relative-caret-position="216">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/IComicBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/MarvelBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/DCBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/ComicBookVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/behaviour/visitor/VisitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
