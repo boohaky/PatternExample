@@ -1,9 +1,11 @@
 package com.company.structural.flyweight;
 
-public class FlyWeightTest {
+import com.company.Test;
 
-    public void run() {
+public class FlyWeightTest implements Test {
 
+    @Override
+    public void run(Object type) {
         for (int i = 0; i < 100; i++) {
             new Elf("Elf " + i, i);
         }

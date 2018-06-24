@@ -4,11 +4,11 @@ import com.sun.istack.internal.NotNull;
 
 import java.io.File;
 
-public class FIleSaver implements IFileSaver {
+public class FileSaver implements IFileSaver {
 
     private final File file;
 
-    public FIleSaver(@NotNull File file) {
+    public FileSaver(@NotNull File file) {
         this.file = file;
     }
 

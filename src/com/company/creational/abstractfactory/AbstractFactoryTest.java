@@ -9,4 +9,5 @@ public class AbstractFactoryTest implements Test<IWWEFactory>{
     public void run(IWWEFactory factory) {
         IWWEStar star = factory.createStar();
     }
+
 }
