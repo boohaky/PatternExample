@@ -1,8 +1,11 @@
 package com.company.behaviour.strategy;
 
-public class StrategyTest {
+import com.company.Test;
 
-    public void run() {
+public class StrategyTest implements Test {
+
+    @Override
+    public void run(Object type) {
         HSGame game = new HSGame();
         game.setStrategy(new RushStrategy());
         game.play();

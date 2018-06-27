@@ -1,8 +1,11 @@
 package com.company.behaviour.state;
 
-public class StateTest {
+import com.company.Test;
 
-    public void run() {
+public class StateTest implements Test {
+
+    @Override
+    public void run(Object type) {
         Country country = new Country();
         country.setCountryState(new WarState(country));
         country.day();

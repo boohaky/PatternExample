@@ -1,10 +1,11 @@
 package com.company.behaviour.memento;
 
-public class MementoTest {
+import com.company.Test;
 
-    public void run() {
+public class MementoTest implements Test<Blashcovich> {
 
-        Blashcovich blashcovich = new Blashcovich();
+    @Override
+    public void run(Blashcovich blashcovich) {
         blashcovich.creaeateSnapshot();
         blashcovich.setHealth(80);
         blashcovich.setHealth(60);

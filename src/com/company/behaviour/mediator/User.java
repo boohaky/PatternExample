@@ -17,6 +17,10 @@ public class User {
         this.name = name;
     }
 
+    public void setRoomMediator(RoomMediator roomMediator) {
+        this.roomMediator = roomMediator;
+    }
+
     public void sendMessage(String message) {
         roomMediator.showMessage(this, message);
     }

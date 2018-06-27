@@ -1,13 +1,15 @@
 package com.company.behaviour.command;
 
-public class CommandTest {
+import com.company.Test;
 
-    public void run() {
+public class CommandTest implements Test {
+
+    @Override
+    public void run(Object type) {
         Ken ken = new Ken();
         ken.setCommand(new Kick());
         ken.destroy();
         ken.setCommand(new Punch());
         ken.destroy();
     }
-
 }
