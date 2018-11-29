@@ -1,15 +1,11 @@
 package com.company.structural.flyweight;
 
-import sun.awt.image.SunVolatileImage;
-
-import java.applet.Applet;
-import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
 public class ImageFactory {
 
-    private Map<Class<? extends Unit>, Image> unitMap = new HashMap<>();
+    private Map<Class<? extends Unit>, Object> unitMap = new HashMap<>();
 
     private static ImageFactory sImageFactory;
 
@@ -20,9 +16,9 @@ public class ImageFactory {
         return sImageFactory;
     }
 
-    public Image getImage(Class<? extends Unit> key) {
+    public Object getImage(Class<? extends Unit> key) {
         if (!unitMap.containsKey(key)) {
-            unitMap.put(key, new SunVolatileImage(new Applet(), 0, 0));
+            unitMap.put(key, new Object());
         }
         return unitMap.get(key);
     }

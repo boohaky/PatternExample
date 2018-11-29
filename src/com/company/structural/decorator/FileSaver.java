@@ -1,6 +1,5 @@
 package com.company.structural.decorator;
 
-import com.sun.istack.internal.NotNull;
 
 import java.io.File;
 
@@ -8,7 +7,7 @@ public class FileSaver implements IFileSaver {
 
     private final File file;
 
-    public FileSaver(@NotNull File file) {
+    public FileSaver(File file) {
         this.file = file;
     }
 

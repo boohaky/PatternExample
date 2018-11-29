@@ -1,6 +1,5 @@
 package com.company.behaviour.observer;
 
-import com.sun.istack.internal.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,11 +24,11 @@ public class AssKick {
         }
     }
 
-    void addAssListener(@NotNull AssKickingListener listener) {
+    void addAssListener(AssKickingListener listener) {
         kickingListeners.add(listener);
     }
 
-    void removeAssListener(@NotNull AssKickingListener listener) {
+    void removeAssListener(AssKickingListener listener) {
         kickingListeners.remove(listener);
     }
 
